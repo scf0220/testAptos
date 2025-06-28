@@ -1,0 +1,16 @@
+[package]
+name = "scftest_v3"
+version = "1.0.0"
+authors = []
+upgrade_policy = "compatible"
+
+[addresses]
+hello_blockchain = "0xe685a749a38210a4404a28a058a2300bdd2e1d6ae4a70d5736cc043781a8ad9a"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
